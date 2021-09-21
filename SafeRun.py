@@ -8,8 +8,8 @@ import time
 from bson import ObjectId
 import traceback
 client = MongoClient('mongodb+srv://admin:admin123@cluster0.4zm9y.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
-db = client['prod-debug']
-collection_name = 'breakpoints'
+db = client['api_mon']
+collection_name = 'prod_debug'
 
 
 
